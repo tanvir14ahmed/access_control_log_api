@@ -1,0 +1,7 @@
+[2026-01-07 12:19:14] - CREATE: Access log created for card C1043. Status: GRANTED.
+[2026-01-07 12:21:53] - CREATE: Access log created for card C9976. Status: GRANTED.
+[2026-01-07 12:22:20] - CREATE: Access log created for card C9964. Status: GRANTED.
+[2026-01-07 12:22:27] - CREATE: Access log created for card C9965. Status: GRANTED.
+[2026-01-07 12:23:43] - CREATE: Access log created for card C9962. Status: DENIED.
+[2026-01-07 12:25:54] - DELETE: Access log (ID: 13) for card C9962 was deleted.
+[2026-01-07 12:40:27] - DELETE: Access log (ID: 2) for card C1005 was deleted.
