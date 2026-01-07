@@ -1,3 +1,12 @@
-from django.shortcuts import render
+from rest_framework import generics
+from .models import AccessLog
+from .serializers import AccessLogSerializer
 
-# Create your views here.
+class AccessLogListCreateView(generics.ListCreateAPIView):
+    queryset = AccessLog.objects.all()
+    serializer_class = AccessLogSerializer
+
+
+class AccessLogDetailView(generics.RetrieveUpdateDestroyAPIView):
+    queryset = AccessLog.objects.all()
+    serializer_class = AccessLogSerializer
